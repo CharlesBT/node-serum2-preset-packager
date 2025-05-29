@@ -26,7 +26,7 @@ pnpm approve-builds
 ### Programmatic API
 
 ```typescript
-import { unpack, pack } from './src/index.js'
+import { unpack, pack } from 'node-serum2-preset-packager'
 
 // Unpack a SerumPreset file to JSON
 await unpack('input.SerumPreset', 'output.json')
@@ -39,10 +39,10 @@ await pack('input.json', 'output.SerumPreset')
 
 ```bash
 # Unpack a SerumPreset file to JSON
-ts-node [serum2-cli.ts](http://_vscodecontentref_/0) unpack <file.SerumPreset> <out.json>
+node cli.js unpack <file.SerumPreset> <out.json>
 
 # Pack a JSON file to SerumPreset
-ts-node [serum2-cli.ts](http://_vscodecontentref_/1) pack <in.json> <out.SerumPreset>
+node cli.js pack <in.json> <out.SerumPreset>
 ```
 
 ## Project Structure
