@@ -1,6 +1,6 @@
 {
   "name": "node-serum2-preset-packager",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Xfer Serum 2 Preset Packager for NodeJS",
   "repository": {
     "type": "git",
@@ -10,7 +10,24 @@
     "url": "https://github.com/CharlesBT/node-serum2-preset-packager/issues"
   },
   "homepage": "https://github.com/CharlesBT/node-serum2-preset-packager#readme",
-  "keywords": [],
+  "keywords": [
+    "xfer",
+    "serum",
+    "serum2",
+    "Steve Duda",
+    "synth",
+    "synthesizer",
+    "preset",
+    "patch",
+    "packager",
+    "cli",
+    "nodejs",
+    "typescript",
+    "javascript",
+    "cbor",
+    "zstandard",
+    "zstd"
+  ],
   "author": {
     "name": "Charles Brébant",
     "email": "charles.brebant@gmail.com",
