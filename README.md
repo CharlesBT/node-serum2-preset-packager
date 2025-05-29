@@ -47,5 +47,3 @@ ts-node [serum2-cli.ts](http://_vscodecontentref_/1) pack <in.json> <out.SerumPr
 - test/ - test scripts
 - test/decode/ - Example .SerumPreset files
 - test/encode/ - Example JSON files
-
----
