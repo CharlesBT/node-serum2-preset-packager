@@ -43,4 +43,28 @@ jobs:
       - name: Publish to NPM registry
         run: pnpm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN:
+            ${{ secrets.NPM_TOKEN }}
+
+            # ─── Derive version number from package.json ─────────────────────
+      - name: Extract package version
+        id: pkg
+        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
+
+      # ─── Tag the commit with vX.Y.Z and push it ───────────────────────
+      - name: Create and push git tag
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git tag -a "v${{ steps.pkg.outputs.version }}" -m "Release v${{ steps.pkg.outputs.version }}"
+          git push origin "v${{ steps.pkg.outputs.version }}"
+
+      # ─── Create the GitHub Release page ───────────────────────────────
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: 'v${{ steps.pkg.outputs.version }}'
+          name: 'v${{ steps.pkg.outputs.version }}'
+          generate_release_notes: true # auto-generate changelog text
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
