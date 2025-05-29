@@ -53,7 +53,8 @@ jobs:
             # ─── Derive version number from package.json ─────────────────────
       - name: Extract package version
         id: pkg
-        run: echo "::set-output name=version::$(node -p 'require(\"./package.json\").version')"
+        run: echo "version=$(node -p 'require(\"./package.json\").version')" >> $GITHUB_OUTPUT
+        shell: bash
 
       # ─── Tag the commit with vX.Y.Z and push it ───────────────────────
       - name: Create and push git tag
