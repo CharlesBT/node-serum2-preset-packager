@@ -3,8 +3,8 @@
  * TypeScript reference implementation.
  *
  * Usage:
- *   ts-node serum2-cli.ts unpack <file.SerumPreset> <out.json>
- *   ts-node serum2-cli.ts pack   <in.json>         <out.SerumPreset>
+ *   node cli.ts unpack <file.SerumPreset> <out.json>
+ *   node cli.ts pack   <in.json>         <out.SerumPreset>
  */
 
 /* ---------- CLI ---------------------------------------------------------- */
