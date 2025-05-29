@@ -1,0 +1,16 @@
+# APP
+.tmp
+
+# NODE
+node_modules
+dist
+pnpm-lock.yaml
+
+# VITEST
+coverage
+
+# DOCS
+docs
+
+# MACOSX
+.DS_Store

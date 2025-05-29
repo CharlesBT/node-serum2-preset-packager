@@ -1,0 +1,1335 @@
+{
+  "metadata": {
+    "fileType": "SerumPreset",
+    "hash": "424944bb4195c3fc5cb094ed1bfada18",
+    "presetAuthor": "",
+    "presetDescription": "",
+    "presetName": "temp1_multisample",
+    "product": "Serum2",
+    "productVersion": "2.0.19",
+    "tags": [
+      "Multisample",
+      "Poly"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 7
+  },
+  "data": {
+    "Arp0": {
+      "plainParams": "default"
+    },
+    "ArpClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ArpClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ClipPlayer": {
+      "kUIParamPianoRollNotePreview": 1,
+      "kUIParamPreviewClip": 0,
+      "kUIParamSelectedClip": 0
+    },
+    "ClipPlayer0": {
+      "plainParams": "default"
+    },
+    "Env0": {
+      "plainParams": {
+        "kParamCurve1": 50,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env1": {
+      "plainParams": {
+        "kParamCurve1": 50,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env2": {
+      "plainParams": {
+        "kParamCurve1": 50,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "Env3": {
+      "plainParams": {
+        "kParamCurve1": 50,
+        "kParamCurve2": 66.60000000000001,
+        "kParamCurve3": 66.60000000000001
+      }
+    },
+    "FXRack0": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack1": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "FXRack2": {
+      "FX": [],
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "Filter": {
+      "kUIParamMixOrGain": 0
+    },
+    "Global0": {
+      "plainParams": "default"
+    },
+    "GranularOsc": [
+      {
+        "kUIParamDisplayXYInput": 0
+      },
+      {
+        "kUIParamDisplayXYInput": 0
+      },
+      {
+        "kUIParamDisplayXYInput": 0
+      }
+    ],
+    "LFO0": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO1": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO2": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO3": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO4": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO5": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO6": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO7": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO8": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFO9": {
+      "curveData": {},
+      "pathData": {},
+      "plainParams": "default"
+    },
+    "LFOPointModBus0": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus1": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus10": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus11": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus12": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus13": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus14": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus15": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus2": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus3": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus4": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus5": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus6": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus7": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus8": {
+      "plainParams": "default"
+    },
+    "LFOPointModBus9": {
+      "plainParams": "default"
+    },
+    "Macro0": {
+      "plainParams": "default"
+    },
+    "Macro1": {
+      "plainParams": "default"
+    },
+    "Macro2": {
+      "plainParams": "default"
+    },
+    "Macro3": {
+      "plainParams": "default"
+    },
+    "Macro4": {
+      "plainParams": "default"
+    },
+    "Macro5": {
+      "plainParams": "default"
+    },
+    "Macro6": {
+      "plainParams": "default"
+    },
+    "Macro7": {
+      "plainParams": "default"
+    },
+    "MidiClip0": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip1": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip10": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip11": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip2": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip3": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip4": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip5": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip6": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip7": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip8": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "MidiClip9": {
+      "clip": {},
+      "plainParams": "default"
+    },
+    "ModSlot0": {
+      "plainParams": "default"
+    },
+    "ModSlot1": {
+      "plainParams": "default"
+    },
+    "ModSlot10": {
+      "plainParams": "default"
+    },
+    "ModSlot11": {
+      "plainParams": "default"
+    },
+    "ModSlot12": {
+      "plainParams": "default"
+    },
+    "ModSlot13": {
+      "plainParams": "default"
+    },
+    "ModSlot14": {
+      "plainParams": "default"
+    },
+    "ModSlot15": {
+      "plainParams": "default"
+    },
+    "ModSlot16": {
+      "plainParams": "default"
+    },
+    "ModSlot17": {
+      "plainParams": "default"
+    },
+    "ModSlot18": {
+      "plainParams": "default"
+    },
+    "ModSlot19": {
+      "plainParams": "default"
+    },
+    "ModSlot2": {
+      "plainParams": "default"
+    },
+    "ModSlot20": {
+      "plainParams": "default"
+    },
+    "ModSlot21": {
+      "plainParams": "default"
+    },
+    "ModSlot22": {
+      "plainParams": "default"
+    },
+    "ModSlot23": {
+      "plainParams": "default"
+    },
+    "ModSlot24": {
+      "plainParams": "default"
+    },
+    "ModSlot25": {
+      "plainParams": "default"
+    },
+    "ModSlot26": {
+      "plainParams": "default"
+    },
+    "ModSlot27": {
+      "plainParams": "default"
+    },
+    "ModSlot28": {
+      "plainParams": "default"
+    },
+    "ModSlot29": {
+      "plainParams": "default"
+    },
+    "ModSlot3": {
+      "plainParams": "default"
+    },
+    "ModSlot30": {
+      "plainParams": "default"
+    },
+    "ModSlot31": {
+      "plainParams": "default"
+    },
+    "ModSlot32": {
+      "plainParams": "default"
+    },
+    "ModSlot33": {
+      "plainParams": "default"
+    },
+    "ModSlot34": {
+      "plainParams": "default"
+    },
+    "ModSlot35": {
+      "plainParams": "default"
+    },
+    "ModSlot36": {
+      "plainParams": "default"
+    },
+    "ModSlot37": {
+      "plainParams": "default"
+    },
+    "ModSlot38": {
+      "plainParams": "default"
+    },
+    "ModSlot39": {
+      "plainParams": "default"
+    },
+    "ModSlot4": {
+      "plainParams": "default"
+    },
+    "ModSlot40": {
+      "plainParams": "default"
+    },
+    "ModSlot41": {
+      "plainParams": "default"
+    },
+    "ModSlot42": {
+      "plainParams": "default"
+    },
+    "ModSlot43": {
+      "plainParams": "default"
+    },
+    "ModSlot44": {
+      "plainParams": "default"
+    },
+    "ModSlot45": {
+      "plainParams": "default"
+    },
+    "ModSlot46": {
+      "plainParams": "default"
+    },
+    "ModSlot47": {
+      "plainParams": "default"
+    },
+    "ModSlot48": {
+      "plainParams": "default"
+    },
+    "ModSlot49": {
+      "plainParams": "default"
+    },
+    "ModSlot5": {
+      "plainParams": "default"
+    },
+    "ModSlot50": {
+      "plainParams": "default"
+    },
+    "ModSlot51": {
+      "plainParams": "default"
+    },
+    "ModSlot52": {
+      "plainParams": "default"
+    },
+    "ModSlot53": {
+      "plainParams": "default"
+    },
+    "ModSlot54": {
+      "plainParams": "default"
+    },
+    "ModSlot55": {
+      "plainParams": "default"
+    },
+    "ModSlot56": {
+      "plainParams": "default"
+    },
+    "ModSlot57": {
+      "plainParams": "default"
+    },
+    "ModSlot58": {
+      "plainParams": "default"
+    },
+    "ModSlot59": {
+      "plainParams": "default"
+    },
+    "ModSlot6": {
+      "plainParams": "default"
+    },
+    "ModSlot60": {
+      "plainParams": "default"
+    },
+    "ModSlot61": {
+      "plainParams": "default"
+    },
+    "ModSlot62": {
+      "plainParams": "default"
+    },
+    "ModSlot63": {
+      "plainParams": "default"
+    },
+    "ModSlot7": {
+      "plainParams": "default"
+    },
+    "ModSlot8": {
+      "plainParams": "default"
+    },
+    "ModSlot9": {
+      "plainParams": "default"
+    },
+    "MultiSampleOsc": [
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0
+      },
+      {
+        "kUIParamMultiSampleOverviewMouseTag": 0
+      }
+    ],
+    "Osc": [
+      {
+        "kUIParamAutoSyncSlicing": 0,
+        "kUIParamShowMarkerAnimations": 0,
+        "kUIParamZoomToStartEnd": 0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0,
+        "kUIParamShowMarkerAnimations": 0,
+        "kUIParamZoomToStartEnd": 0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0,
+        "kUIParamShowMarkerAnimations": 0,
+        "kUIParamZoomToStartEnd": 0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0,
+        "kUIParamShowMarkerAnimations": 0,
+        "kUIParamZoomToStartEnd": 0
+      },
+      {
+        "kUIParamAutoSyncSlicing": 0,
+        "kUIParamShowMarkerAnimations": 0,
+        "kUIParamZoomToStartEnd": 0
+      }
+    ],
+    "Oscillator0": {
+      "GranularOsc0": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc0": {
+        "embedded_sfz": "// SFZ Generated by libSFZ\n<group> hivel=15 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0001_cffa509c-20a0-48c9-80ef-4c89f4b715db.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0002_b0eace71-2c54-4327-9027-3993eae1f324.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0003_2e585c2e-47f3-4ca7-b6e1-5403d802402c.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0004_91f5a94e-0476-4d26-8dc5-2a7dba34d8e3.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0005_083900ba-54ce-4799-a0b2-5343408e1897.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0006_487ad007-61c5-4440-9bf1-bd1c22ce1c97.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0007_0dd1d457-c0fe-4ce5-85cd-44aa7d49b73f.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0008_1f2b4628-530c-4237-9b20-8c6532e5d939.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0009_8194996a-fc94-4046-9e3e-785dcdabe185.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0010_1a5ade4b-b0e0-41b6-b758-fa7a640e1522.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0011_7345eb55-743a-4338-8fa9-dbc6d9ca9718.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0012_549a8221-f7ac-4d6e-83e8-2bcfb4328b5d.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0013_8895c2e3-ee87-4400-8fc3-91090952566b.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0014_42eee135-ff38-41d0-9ebf-b59929112554.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0015_33fbbab9-89ba-47c9-af8b-f118cd4a5614.flac\n<group> lovel=16 hivel=31 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0016_9ef1b789-18e0-4f63-a6be-875e3ef1c46c.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0017_91856d7c-e012-4a13-bc29-8e67ce373498.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0018_186263be-83dc-486d-898b-b5015e1b1397.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0019_68fd2ce2-674b-4554-be4d-9b911de3e3e8.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0020_7c8b2ba8-b40c-432f-804a-5204d0d09d84.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0021_7ffe8c26-3622-4d5c-ad53-bd1cdaf96c2b.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0022_4cf478da-57bc-4e0f-9b02-bef41e9893bf.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0023_5fe0fa6c-c4f0-4747-be24-8693c0f4e36e.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0024_a07df3bb-ff1f-4436-a020-3e95167f8fa2.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0025_7cc08d59-916d-4ebc-b6c3-89b47263acd0.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0026_d714ba0e-eaf2-4435-9752-de9d6b6eccc9.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0027_cef1daca-afc6-4961-a914-cb2e6b45613e.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0028_4c9e78e9-e4e0-4933-add5-6c6c76a0f7d6.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0029_651e0945-4c2f-4f6d-9a4e-d45612bc324c.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0030_805ac7c6-c2ec-4bd0-a3cf-039cf5077649.flac\n<group> lovel=32 hivel=47 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0031_653cac93-e676-4f34-b946-af15d52414af.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0032_96c9f72d-392d-4f6d-be32-441a6e3ca024.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0033_bdbed58b-a927-462d-8a39-c6adfc643f6d.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0034_a1e9b3ad-fd36-435f-9a2d-5a00c54c7693.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0035_738dab43-94d0-4d51-a5a6-a9042d32d4cd.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0036_4cc10e93-06f0-4a8b-94bb-0404e13eb013.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0037_e4d86a71-4684-49f2-b4e8-24a473b69618.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0038_e23b8197-c925-490d-ba59-6e3bddc261d8.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0039_1f3b16b5-b068-4ee6-b9aa-2e175f7ede10.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0040_7d2f7334-0f18-4fd7-981f-a831f13dec37.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0041_da3cf355-6e87-4aec-9ae9-90c7ebd99797.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0042_64b97118-bc33-4f08-994f-69ff17f67d3d.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0043_3984a08a-29f1-4c27-b6c2-9d69871d9ef1.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0044_55ae2385-48d1-4b13-9a85-f391a6c1746c.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0045_89468128-2389-43e8-a78b-3db8ee6dad42.flac\n<group> lovel=48 hivel=63 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0046_dc4096a4-910f-4bc3-bc5f-21548c003a87.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0047_a35ca534-0d0a-4449-ba21-42af28410dd7.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0048_d3c8c347-a9de-4f53-98a5-df8507f8164c.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0049_f44f60db-5be9-4f77-9d88-8d5cee365f01.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0050_1bd6f793-b83e-44bb-80cf-cbc7738382ce.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0051_8a17588a-db8b-4306-a12f-cc6dd0b9fbc4.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0052_11e2a064-0779-4384-aa80-bbe4779dcf23.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0053_be959e46-3e8f-4503-8f19-ddbee8062195.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0054_7ee2e0cc-6536-48ae-82fd-c2e9b96e69aa.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0055_ac42f949-7309-4702-90e5-632461574462.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0056_68efb791-3fb3-4d62-a5d0-b4fe01c0112d.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0057_d548b377-ab54-4654-bf12-91af068ccb31.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0058_5926ab4e-8d6a-421f-b6dd-fa042899a2fb.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0059_0e0a0ef5-c22d-4dfa-b4ab-f7d5b8987b74.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0060_27196d56-67a7-4b58-b2ad-64bd22f56f3c.flac\n<group> lovel=64 hivel=79 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0061_983b5b4e-63a7-4172-a7db-e89a2b4f2ca9.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0062_ef576367-2813-40e0-89ee-155a9eb3fc3c.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0063_bbc9899a-fd00-48f8-a4eb-2b64192cc5ef.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0064_938953d5-8958-4022-aaf6-1777fea1c8e1.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0065_3f733885-7bd4-4137-af2c-107ddb607abc.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0066_d2c935b7-611e-4e63-be27-26269c38239a.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0067_b78e81cc-5cb3-4818-9b47-d4da2a950660.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0068_9ea50640-ad0d-483b-8213-df149b1c23a1.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0069_50e39c90-f357-4ea2-b260-9afa50933b9b.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0070_39ef5dc7-7faa-40b0-846d-ce518aadad3e.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0071_dda1b211-6ae8-4a7d-b8b2-3e53f6ac5efd.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0072_e9793df8-65d5-4335-841e-f0a672422a3a.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0073_f1c9e14d-e759-4c54-af2a-bd233438f1f5.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0074_3b62c84b-1066-4d94-a303-6ca8adde7c30.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0075_703e1803-e287-497f-9f77-0d8a2bea0ce0.flac\n<group> lovel=80 hivel=95 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0076_d0b4678c-c0de-468a-8f1c-a2d01faf2bbd.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0077_282ace5b-aa74-42be-9f80-11942a7dbc2f.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0078_d9e8ad25-7b36-462f-a7a6-0308a76cfd7a.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0079_6f2967a4-1c8c-4fbf-8df2-f094f328716d.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0080_87fa297e-b552-4e85-b486-749e5e317fd7.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0081_73a4ef1f-8095-4fdd-adf6-40c20fe33469.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0082_f7f7bb04-7a10-404d-9e02-9138b989657d.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0083_cb9d92ac-8f71-4950-8db1-279114244419.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0084_b1247f69-4672-4049-994f-34afac2cbbe1.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0085_4b8c0159-dd42-42ac-bce2-e59e99276a38.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0086_0077792f-1633-419b-b366-d4786936bcb7.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0087_35c1f04b-b618-4f2a-b009-70622f268166.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0088_228ce2fe-165a-414c-9c1b-461c7e01f4e8.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0089_e7b0762c-3a97-45b2-8310-a1911de558b2.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0090_047d0ebc-f51b-47e3-af72-1763cede9e75.flac\n<group> lovel=96 hivel=111 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0091_719768da-dc7d-4e8d-9380-59921bd1d1ff.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0092_ef05c336-d3ea-476e-8738-338cd8ab2d76.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0093_f64cfa1a-d011-4c70-8b8b-0c89b4a534c1.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0094_b9a9e44b-4817-4e2b-9678-e228efb414f1.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0095_c75f3753-1d74-441c-a93c-a3ab13e55731.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0096_33164a3f-fdc9-4281-b614-d957856ff149.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0097_13b78b30-a7ed-4780-9960-27560e6757e0.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0098_3ccf2652-d450-4290-b21b-01ff7918e866.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0099_ba98deec-af03-4e99-bc5b-a7f68ba50452.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0100_625b2014-0e83-4cfb-bb48-adf2c52ce823.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0101_07306568-07e5-4522-93dd-ea8b0faf0768.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0102_0e03d01a-3ced-49f7-8dd9-05bb244b0d7f.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0103_362694b3-054c-4f55-bcdc-2dec288752ac.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0104_1f718a57-be44-4854-b165-3391a5c52d72.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0105_ecd91f7e-e93a-4364-9c07-6c4855301117.flac\n<group> lovel=112 amp_veltrack=90.000000 ampeg_attack=0.000500 ampeg_release=2.000000\n<region> lokey=21 hikey=24 pitch_keycenter=21 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0106_a1636ac5-0312-4fb6-b019-8c8939172c06.flac\n<region> lokey=25 hikey=30 pitch_keycenter=27 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0107_b54cac72-a78f-47f3-b82d-2dc1687ae56b.flac\n<region> lokey=31 hikey=36 pitch_keycenter=33 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0108_57e43100-14ee-4ad1-aef6-653a88fd1e07.flac\n<region> lokey=37 hikey=42 pitch_keycenter=39 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0109_63d059e0-76ea-4367-84bc-088d757f27f2.flac\n<region> lokey=43 hikey=48 pitch_keycenter=45 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0110_dc163cfa-0cd0-4349-965f-8e1240b34dd6.flac\n<region> lokey=49 hikey=54 pitch_keycenter=51 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0111_0b66b6b3-0323-4cb9-a530-abda0fb41200.flac\n<region> lokey=55 hikey=60 pitch_keycenter=57 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0112_f25e95cf-2cc8-4850-87dc-2bcc5ef6771d.flac\n<region> lokey=61 hikey=66 pitch_keycenter=63 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0113_fe2d0c0b-2808-45c1-88d4-2fa43ec38768.flac\n<region> lokey=67 hikey=72 pitch_keycenter=69 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0114_92cf846e-32df-4dc5-9f80-a59545e7d1e1.flac\n<region> lokey=73 hikey=78 pitch_keycenter=75 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0115_037f83eb-f65d-4d5d-b03e-4d84a0433797.flac\n<region> lokey=79 hikey=84 pitch_keycenter=81 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0116_7fec27fe-8a7f-4d77-8fb1-ab0da2bf9e0b.flac\n<region> lokey=85 hikey=90 pitch_keycenter=87 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0117_eede3e88-8039-4d05-b71d-789dcc66d799.flac\n<region> lokey=91 hikey=96 pitch_keycenter=93 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0118_50579663-52c9-4f01-bf70-182f322b5d6a.flac\n<region> lokey=97 hikey=102 pitch_keycenter=99 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0119_3e273732-7fb1-4a04-83d2-6302621868fd.flac\n<region> lokey=103 hikey=108 pitch_keycenter=105 sample=samples/b3afbe4f-7757-41e5-ab55-55425cfbd140//0120_ddd121a5-1158-4785-bceb-ee5e82f3a692.flac\n",
+        "files": {
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0001_cffa509c-20a0-48c9-80ef-4c89f4b715db.flac": {
+            "numChannels": 2,
+            "numFrames": 590355,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0002_b0eace71-2c54-4327-9027-3993eae1f324.flac": {
+            "numChannels": 2,
+            "numFrames": 676039,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0003_2e585c2e-47f3-4ca7-b6e1-5403d802402c.flac": {
+            "numChannels": 2,
+            "numFrames": 692254,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0004_91f5a94e-0476-4d26-8dc5-2a7dba34d8e3.flac": {
+            "numChannels": 2,
+            "numFrames": 699307,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0005_083900ba-54ce-4799-a0b2-5343408e1897.flac": {
+            "numChannels": 2,
+            "numFrames": 705323,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0006_487ad007-61c5-4440-9bf1-bd1c22ce1c97.flac": {
+            "numChannels": 2,
+            "numFrames": 678253,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0007_0dd1d457-c0fe-4ce5-85cd-44aa7d49b73f.flac": {
+            "numChannels": 2,
+            "numFrames": 632092,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0008_1f2b4628-530c-4237-9b20-8c6532e5d939.flac": {
+            "numChannels": 2,
+            "numFrames": 270952,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0009_8194996a-fc94-4046-9e3e-785dcdabe185.flac": {
+            "numChannels": 2,
+            "numFrames": 347272,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0010_1a5ade4b-b0e0-41b6-b758-fa7a640e1522.flac": {
+            "numChannels": 2,
+            "numFrames": 206717,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0011_7345eb55-743a-4338-8fa9-dbc6d9ca9718.flac": {
+            "numChannels": 2,
+            "numFrames": 220369,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0012_549a8221-f7ac-4d6e-83e8-2bcfb4328b5d.flac": {
+            "numChannels": 2,
+            "numFrames": 152798,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0013_8895c2e3-ee87-4400-8fc3-91090952566b.flac": {
+            "numChannels": 2,
+            "numFrames": 148446,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0014_42eee135-ff38-41d0-9ebf-b59929112554.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0015_33fbbab9-89ba-47c9-af8b-f118cd4a5614.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0016_9ef1b789-18e0-4f63-a6be-875e3ef1c46c.flac": {
+            "numChannels": 2,
+            "numFrames": 669660,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0017_91856d7c-e012-4a13-bc29-8e67ce373498.flac": {
+            "numChannels": 2,
+            "numFrames": 678306,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0018_186263be-83dc-486d-898b-b5015e1b1397.flac": {
+            "numChannels": 2,
+            "numFrames": 708870,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0019_68fd2ce2-674b-4554-be4d-9b911de3e3e8.flac": {
+            "numChannels": 2,
+            "numFrames": 700864,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0020_7c8b2ba8-b40c-432f-804a-5204d0d09d84.flac": {
+            "numChannels": 2,
+            "numFrames": 696781,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0021_7ffe8c26-3622-4d5c-ad53-bd1cdaf96c2b.flac": {
+            "numChannels": 2,
+            "numFrames": 681450,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0022_4cf478da-57bc-4e0f-9b02-bef41e9893bf.flac": {
+            "numChannels": 2,
+            "numFrames": 703202,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0023_5fe0fa6c-c4f0-4747-be24-8693c0f4e36e.flac": {
+            "numChannels": 2,
+            "numFrames": 689259,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0024_a07df3bb-ff1f-4436-a020-3e95167f8fa2.flac": {
+            "numChannels": 2,
+            "numFrames": 322522,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0025_7cc08d59-916d-4ebc-b6c3-89b47263acd0.flac": {
+            "numChannels": 2,
+            "numFrames": 248455,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0026_d714ba0e-eaf2-4435-9752-de9d6b6eccc9.flac": {
+            "numChannels": 2,
+            "numFrames": 260117,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0027_cef1daca-afc6-4961-a914-cb2e6b45613e.flac": {
+            "numChannels": 2,
+            "numFrames": 192002,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0028_4c9e78e9-e4e0-4933-add5-6c6c76a0f7d6.flac": {
+            "numChannels": 2,
+            "numFrames": 185130,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0029_651e0945-4c2f-4f6d-9a4e-d45612bc324c.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0030_805ac7c6-c2ec-4bd0-a3cf-039cf5077649.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0031_653cac93-e676-4f34-b946-af15d52414af.flac": {
+            "numChannels": 2,
+            "numFrames": 681788,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0032_96c9f72d-392d-4f6d-be32-441a6e3ca024.flac": {
+            "numChannels": 2,
+            "numFrames": 667842,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0033_bdbed58b-a927-462d-8a39-c6adfc643f6d.flac": {
+            "numChannels": 2,
+            "numFrames": 709219,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0034_a1e9b3ad-fd36-435f-9a2d-5a00c54c7693.flac": {
+            "numChannels": 2,
+            "numFrames": 696293,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0035_738dab43-94d0-4d51-a5a6-a9042d32d4cd.flac": {
+            "numChannels": 2,
+            "numFrames": 711983,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0036_4cc10e93-06f0-4a8b-94bb-0404e13eb013.flac": {
+            "numChannels": 2,
+            "numFrames": 698262,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0037_e4d86a71-4684-49f2-b4e8-24a473b69618.flac": {
+            "numChannels": 2,
+            "numFrames": 700600,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0038_e23b8197-c925-490d-ba59-6e3bddc261d8.flac": {
+            "numChannels": 2,
+            "numFrames": 314294,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0039_1f3b16b5-b068-4ee6-b9aa-2e175f7ede10.flac": {
+            "numChannels": 2,
+            "numFrames": 309160,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0040_7d2f7334-0f18-4fd7-981f-a831f13dec37.flac": {
+            "numChannels": 2,
+            "numFrames": 242859,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0041_da3cf355-6e87-4aec-9ae9-90c7ebd99797.flac": {
+            "numChannels": 2,
+            "numFrames": 316861,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0042_64b97118-bc33-4f08-994f-69ff17f67d3d.flac": {
+            "numChannels": 2,
+            "numFrames": 188584,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0043_3984a08a-29f1-4c27-b6c2-9d69871d9ef1.flac": {
+            "numChannels": 2,
+            "numFrames": 192110,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0044_55ae2385-48d1-4b13-9a85-f391a6c1746c.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0045_89468128-2389-43e8-a78b-3db8ee6dad42.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0046_dc4096a4-910f-4bc3-bc5f-21548c003a87.flac": {
+            "numChannels": 2,
+            "numFrames": 678739,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0047_a35ca534-0d0a-4449-ba21-42af28410dd7.flac": {
+            "numChannels": 2,
+            "numFrames": 642275,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0048_d3c8c347-a9de-4f53-98a5-df8507f8164c.flac": {
+            "numChannels": 2,
+            "numFrames": 637766,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0049_f44f60db-5be9-4f77-9d88-8d5cee365f01.flac": {
+            "numChannels": 2,
+            "numFrames": 330505,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0050_1bd6f793-b83e-44bb-80cf-cbc7738382ce.flac": {
+            "numChannels": 2,
+            "numFrames": 363924,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0051_8a17588a-db8b-4306-a12f-cc6dd0b9fbc4.flac": {
+            "numChannels": 2,
+            "numFrames": 381167,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0052_11e2a064-0779-4384-aa80-bbe4779dcf23.flac": {
+            "numChannels": 2,
+            "numFrames": 296050,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0053_be959e46-3e8f-4503-8f19-ddbee8062195.flac": {
+            "numChannels": 2,
+            "numFrames": 295570,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0054_7ee2e0cc-6536-48ae-82fd-c2e9b96e69aa.flac": {
+            "numChannels": 2,
+            "numFrames": 341891,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0055_ac42f949-7309-4702-90e5-632461574462.flac": {
+            "numChannels": 2,
+            "numFrames": 245245,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0056_68efb791-3fb3-4d62-a5d0-b4fe01c0112d.flac": {
+            "numChannels": 2,
+            "numFrames": 205058,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0057_d548b377-ab54-4654-bf12-91af068ccb31.flac": {
+            "numChannels": 2,
+            "numFrames": 144189,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0058_5926ab4e-8d6a-421f-b6dd-fa042899a2fb.flac": {
+            "numChannels": 2,
+            "numFrames": 173247,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0059_0e0a0ef5-c22d-4dfa-b4ab-f7d5b8987b74.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0060_27196d56-67a7-4b58-b2ad-64bd22f56f3c.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0061_983b5b4e-63a7-4172-a7db-e89a2b4f2ca9.flac": {
+            "numChannels": 2,
+            "numFrames": 441163,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0062_ef576367-2813-40e0-89ee-155a9eb3fc3c.flac": {
+            "numChannels": 2,
+            "numFrames": 592194,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0063_bbc9899a-fd00-48f8-a4eb-2b64192cc5ef.flac": {
+            "numChannels": 2,
+            "numFrames": 455205,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0064_938953d5-8958-4022-aaf6-1777fea1c8e1.flac": {
+            "numChannels": 2,
+            "numFrames": 341332,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0065_3f733885-7bd4-4137-af2c-107ddb607abc.flac": {
+            "numChannels": 2,
+            "numFrames": 371196,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0066_d2c935b7-611e-4e63-be27-26269c38239a.flac": {
+            "numChannels": 2,
+            "numFrames": 340664,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0067_b78e81cc-5cb3-4818-9b47-d4da2a950660.flac": {
+            "numChannels": 2,
+            "numFrames": 295674,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0068_9ea50640-ad0d-483b-8213-df149b1c23a1.flac": {
+            "numChannels": 2,
+            "numFrames": 237384,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0069_50e39c90-f357-4ea2-b260-9afa50933b9b.flac": {
+            "numChannels": 2,
+            "numFrames": 292886,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0070_39ef5dc7-7faa-40b0-846d-ce518aadad3e.flac": {
+            "numChannels": 2,
+            "numFrames": 216492,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0071_dda1b211-6ae8-4a7d-b8b2-3e53f6ac5efd.flac": {
+            "numChannels": 2,
+            "numFrames": 219567,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0072_e9793df8-65d5-4335-841e-f0a672422a3a.flac": {
+            "numChannels": 2,
+            "numFrames": 146131,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0073_f1c9e14d-e759-4c54-af2a-bd233438f1f5.flac": {
+            "numChannels": 2,
+            "numFrames": 171459,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0074_3b62c84b-1066-4d94-a303-6ca8adde7c30.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0075_703e1803-e287-497f-9f77-0d8a2bea0ce0.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0076_d0b4678c-c0de-468a-8f1c-a2d01faf2bbd.flac": {
+            "numChannels": 2,
+            "numFrames": 360255,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0077_282ace5b-aa74-42be-9f80-11942a7dbc2f.flac": {
+            "numChannels": 2,
+            "numFrames": 458688,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0078_d9e8ad25-7b36-462f-a7a6-0308a76cfd7a.flac": {
+            "numChannels": 2,
+            "numFrames": 384013,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0079_6f2967a4-1c8c-4fbf-8df2-f094f328716d.flac": {
+            "numChannels": 2,
+            "numFrames": 278266,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0080_87fa297e-b552-4e85-b486-749e5e317fd7.flac": {
+            "numChannels": 2,
+            "numFrames": 329884,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0081_73a4ef1f-8095-4fdd-adf6-40c20fe33469.flac": {
+            "numChannels": 2,
+            "numFrames": 255862,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0082_f7f7bb04-7a10-404d-9e02-9138b989657d.flac": {
+            "numChannels": 2,
+            "numFrames": 214010,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0083_cb9d92ac-8f71-4950-8db1-279114244419.flac": {
+            "numChannels": 2,
+            "numFrames": 235948,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0084_b1247f69-4672-4049-994f-34afac2cbbe1.flac": {
+            "numChannels": 2,
+            "numFrames": 229739,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0085_4b8c0159-dd42-42ac-bce2-e59e99276a38.flac": {
+            "numChannels": 2,
+            "numFrames": 193805,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0086_0077792f-1633-419b-b366-d4786936bcb7.flac": {
+            "numChannels": 2,
+            "numFrames": 139454,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0087_35c1f04b-b618-4f2a-b009-70622f268166.flac": {
+            "numChannels": 2,
+            "numFrames": 141351,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0088_228ce2fe-165a-414c-9c1b-461c7e01f4e8.flac": {
+            "numChannels": 2,
+            "numFrames": 139847,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0089_e7b0762c-3a97-45b2-8310-a1911de558b2.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0090_047d0ebc-f51b-47e3-af72-1763cede9e75.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0091_719768da-dc7d-4e8d-9380-59921bd1d1ff.flac": {
+            "numChannels": 2,
+            "numFrames": 394807,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0092_ef05c336-d3ea-476e-8738-338cd8ab2d76.flac": {
+            "numChannels": 2,
+            "numFrames": 500866,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0093_f64cfa1a-d011-4c70-8b8b-0c89b4a534c1.flac": {
+            "numChannels": 2,
+            "numFrames": 411189,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0094_b9a9e44b-4817-4e2b-9678-e228efb414f1.flac": {
+            "numChannels": 2,
+            "numFrames": 280982,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0095_c75f3753-1d74-441c-a93c-a3ab13e55731.flac": {
+            "numChannels": 2,
+            "numFrames": 361567,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0096_33164a3f-fdc9-4281-b614-d957856ff149.flac": {
+            "numChannels": 2,
+            "numFrames": 278252,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0097_13b78b30-a7ed-4780-9960-27560e6757e0.flac": {
+            "numChannels": 2,
+            "numFrames": 229082,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0098_3ccf2652-d450-4290-b21b-01ff7918e866.flac": {
+            "numChannels": 2,
+            "numFrames": 256012,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0099_ba98deec-af03-4e99-bc5b-a7f68ba50452.flac": {
+            "numChannels": 2,
+            "numFrames": 243890,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0100_625b2014-0e83-4cfb-bb48-adf2c52ce823.flac": {
+            "numChannels": 2,
+            "numFrames": 195673,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0101_07306568-07e5-4522-93dd-ea8b0faf0768.flac": {
+            "numChannels": 2,
+            "numFrames": 159758,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0102_0e03d01a-3ced-49f7-8dd9-05bb244b0d7f.flac": {
+            "numChannels": 2,
+            "numFrames": 143532,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0103_362694b3-054c-4f55-bcdc-2dec288752ac.flac": {
+            "numChannels": 2,
+            "numFrames": 140215,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0104_1f718a57-be44-4854-b165-3391a5c52d72.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0105_ecd91f7e-e93a-4364-9c07-6c4855301117.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0106_a1636ac5-0312-4fb6-b019-8c8939172c06.flac": {
+            "numChannels": 2,
+            "numFrames": 448345,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0107_b54cac72-a78f-47f3-b82d-2dc1687ae56b.flac": {
+            "numChannels": 2,
+            "numFrames": 486930,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0108_57e43100-14ee-4ad1-aef6-653a88fd1e07.flac": {
+            "numChannels": 2,
+            "numFrames": 425897,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0109_63d059e0-76ea-4367-84bc-088d757f27f2.flac": {
+            "numChannels": 2,
+            "numFrames": 283960,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0110_dc163cfa-0cd0-4349-965f-8e1240b34dd6.flac": {
+            "numChannels": 2,
+            "numFrames": 355523,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0111_0b66b6b3-0323-4cb9-a530-abda0fb41200.flac": {
+            "numChannels": 2,
+            "numFrames": 302503,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0112_f25e95cf-2cc8-4850-87dc-2bcc5ef6771d.flac": {
+            "numChannels": 2,
+            "numFrames": 248234,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0113_fe2d0c0b-2808-45c1-88d4-2fa43ec38768.flac": {
+            "numChannels": 2,
+            "numFrames": 247923,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0114_92cf846e-32df-4dc5-9f80-a59545e7d1e1.flac": {
+            "numChannels": 2,
+            "numFrames": 300184,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0115_037f83eb-f65d-4d5d-b03e-4d84a0433797.flac": {
+            "numChannels": 2,
+            "numFrames": 224243,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0116_7fec27fe-8a7f-4d77-8fb1-ab0da2bf9e0b.flac": {
+            "numChannels": 2,
+            "numFrames": 186745,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0117_eede3e88-8039-4d05-b71d-789dcc66d799.flac": {
+            "numChannels": 2,
+            "numFrames": 152213,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0118_50579663-52c9-4f01-bf70-182f322b5d6a.flac": {
+            "numChannels": 2,
+            "numFrames": 175934,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0119_3e273732-7fb1-4a04-83d2-6302621868fd.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          },
+          "samples\\b3afbe4f-7757-41e5-ab55-55425cfbd140\\\\0120_ddd121a5-1158-4785-bceb-ee5e82f3a692.flac": {
+            "numChannels": 2,
+            "numFrames": 744000,
+            "sampleRate": 48000
+          }
+        },
+        "plainParams": {
+          "kParamEnvAttack": 0.0005000000237487254,
+          "kParamEnvDecay": 0,
+          "kParamEnvRelease": 1.999999999999999
+        },
+        "sfzPath": "D:/DOWNLOADS/PN__Dreamy__Lush__Piano.sfz"
+      },
+      "SampleOsc0": {
+        "plainParams": "default"
+      },
+      "SpectralOsc0": {
+        "plainParams": "default"
+      },
+      "WTOsc0": {
+        "plainParams": "default"
+      },
+      "plainParams": {
+        "kParamType": "kOsc_MultiSample"
+      }
+    },
+    "Oscillator1": {
+      "GranularOsc1": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc1": {
+        "plainParams": "default"
+      },
+      "SampleOsc1": {
+        "plainParams": "default"
+      },
+      "SpectralOsc1": {
+        "plainParams": "default"
+      },
+      "WTOsc1": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": "default",
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator2": {
+      "GranularOsc2": {
+        "plainParams": "default"
+      },
+      "MultiSampleOsc2": {
+        "plainParams": "default"
+      },
+      "SampleOsc2": {
+        "plainParams": "default"
+      },
+      "SpectralOsc2": {
+        "plainParams": "default"
+      },
+      "WTOsc2": {
+        "flex": {},
+        "numChannels": 1,
+        "numFrames": 18432,
+        "plainParams": "default",
+        "relativePathToWT": "S2 Tables/Default Shapes.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator3": {
+      "NoiseOsc3": {
+        "detuneFactor": 0.4758218478413068,
+        "numChannels": 1,
+        "numFrames": 78241,
+        "plainParams": "default",
+        "relativePathToNoiseSample": "Organics/AC hum1.wav",
+        "sampleRate": 44100
+      },
+      "plainParams": "default"
+    },
+    "Oscillator4": {
+      "SubOsc4": {
+        "plainParams": "default"
+      },
+      "plainParams": "default"
+    },
+    "PitchQuantizer0": {
+      "plainParams": "default",
+      "scale": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "scaleName": "Major"
+    },
+    "RetriggerState0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot0": {
+      "plainParams": "default"
+    },
+    "RoutingSlot1": {
+      "plainParams": "default"
+    },
+    "RoutingSlot2": {
+      "plainParams": "default"
+    },
+    "RoutingSlot3": {
+      "plainParams": "default"
+    },
+    "RoutingSlot4": {
+      "plainParams": "default"
+    },
+    "RoutingSlot5": {
+      "plainParams": "default"
+    },
+    "RoutingSlot6": {
+      "plainParams": "default"
+    },
+    "SerumGUI": {
+      "kUIParamShowKeyboard": 1,
+      "kUIParamShowMidiOut": 0
+    },
+    "SpectralOsc": [
+      {
+        "kUIParamDisplayXYInput": 0,
+        "kUIParamShowWaveformDisplay": 0
+      },
+      {
+        "kUIParamDisplayXYInput": 0,
+        "kUIParamShowWaveformDisplay": 0
+      },
+      {
+        "kUIParamDisplayXYInput": 0,
+        "kUIParamShowWaveformDisplay": 0
+      }
+    ],
+    "VoiceFilter0": {
+      "plainParams": "default"
+    },
+    "VoiceFilter1": {
+      "plainParams": "default"
+    },
+    "VoicePanel0": {
+      "displayName": "",
+      "plainParams": "default"
+    },
+    "WTOsc": [
+      {
+        "kUIParamWTOverviewMouseTag": 0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0
+      },
+      {
+        "kUIParamWTOverviewMouseTag": 0
+      }
+    ],
+    "arpBankDisplayName": "",
+    "clipBankDisplayName": "",
+    "fileType": "SerumPreset",
+    "lockOversampling": false,
+    "lockTuning": false,
+    "mpeConfig": 0,
+    "mpeEnabled": false,
+    "mpePitchBendRange": 48,
+    "presetAuthor": "",
+    "presetDescription": "",
+    "presetName": "temp1_multisample",
+    "product": "Serum2",
+    "productVersion": "2.0.19",
+    "scalars": {
+      "note": {},
+      "velo": {}
+    },
+    "tags": [
+      "Multisample",
+      "Poly"
+    ],
+    "url": "https://xferrecords.com/",
+    "vendor": "Xfer Records",
+    "version": 7
+  }
+}

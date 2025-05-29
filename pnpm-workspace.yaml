@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - '@mongodb-js/zstd'
+  - esbuild
+  - unrs-resolver

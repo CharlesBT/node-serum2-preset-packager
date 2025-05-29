@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+dist
+
+# Temp directories
+.tmp
+
+# .env.*.local
+.env
+*.local
+*.local.*
+
+# DOCS
+docs
+
+# Logs
+logs
+*.log
+*.log*
+*gitlog
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# VITEST
+coverage
+
+# MACOSX
+.DS_Store

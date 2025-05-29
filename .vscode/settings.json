@@ -1,0 +1,63 @@
+{
+  // Files
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.defaultLanguage": "markdown",
+  "search.exclude": {
+    "**/*/dist": true,
+    "**/*/docs": true,
+    "**/*/coverage": true,
+    "**/*/output": true,
+    "**/*/.temp": true
+  },
+
+  // Editor
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggest.showStatusBar": true,
+  "editor.suggest.insertMode": "insert",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.minimap.size": "fit",
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "never", // slows down save action when set to true
+    // "source.fixAll": true, // turns on Auto Fix for all providers including ESLint ("source.fixAll.eslint": true), slows down save action when set to true
+    "source.fixAll.eslint": "never"
+  },
+  "editor.inlineSuggest.enabled": true,
+
+  // Javascript
+  "javascript.format.semicolons": "remove",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  // "javascript.preferences.importModuleSpecifierEnding": "js",
+
+  // Typescript
+  "typescript.format.semicolons": "remove",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  // "typescript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  /* --- Extensions --- */
+
+  // ESLint
+  "eslint.useFlatConfig": true, // Enable the ESlint flat config support
+
+  // NPM package manager for running scripts
+  "npm.packageManager": "pnpm",
+
+  // Code Runner extension
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "node --no-warnings=ExperimentalWarning --loader ts-node/esm"
+  }
+}
