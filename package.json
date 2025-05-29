@@ -1,6 +1,6 @@
 {
   "name": "node-serum2-preset-packager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Xfer Serum 2 Preset Packager for NodeJS",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "dist"
+    "dist/**/*",
   ],
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
