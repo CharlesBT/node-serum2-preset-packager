@@ -1,6 +1,6 @@
 {
   "name": "node-serum2-preset-packager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Xfer Serum 2 Preset Packager for NodeJS",
   "repository": {
     "type": "git",
@@ -57,13 +57,12 @@
   },
   "devDependencies": {
     "@types/node": "^22",
-    "eslint": "9.25.1",
-    "prettier": "3.5.3",
-    "serve": "14.2.4",
-    "ts-node": "10.9.2",
-    "typescript": "5.8.3",
-    "unbuild": "3.5.0",
-    "vitest": "3.1.4"
-  },
-  "packageManager": "pnpm@10.11.0"
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3",
+    "serve": "^14.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "unbuild": "^3.5.0",
+    "vitest": "^3.1.4"
+  }
 }
