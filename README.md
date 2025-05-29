@@ -17,6 +17,8 @@ This package provides utilities and a CLI for converting between Serum 2 preset 
 npm install node-serum2-preset-packager
 # or using pnpm
 pnpm install node-serum2-preset-packager
+# run build scripts for dependencies @mongodb-js/zstd
+pnpm approve-builds
 ```
 
 ## Usage

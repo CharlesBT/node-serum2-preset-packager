@@ -31,11 +31,11 @@ jobs:
       - name: Install packages
         run: pnpm install
 
-      - name: Build
-        run: pnpm run build
-
       - name: Typescript type check
         run: pnpm run tc
+
+      - name: Build
+        run: pnpm run build
 
       - name: Test
         run: pnpm run test:ci
