@@ -1,5 +1,9 @@
 name: Build & Publish
 
+permissions:
+  contents: write
+  packages: write
+
 env:
   NODE_VERSION: 20.x # set this to the node version to use
   PNPM_VERSION: 10 # set this to the node version to use
@@ -53,9 +57,12 @@ jobs:
 
       # ─── Tag the commit with vX.Y.Z and push it ───────────────────────
       - name: Create and push git tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git tag -a "v${{ steps.pkg.outputs.version }}" -m "Release v${{ steps.pkg.outputs.version }}"
           git push origin "v${{ steps.pkg.outputs.version }}"
 
