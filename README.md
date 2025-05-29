@@ -52,3 +52,7 @@ node cli.js pack <in.json> <out.SerumPreset>
 - test/ - test scripts
 - test/decode/ - Example .SerumPreset files
 - test/encode/ - Example JSON files
+
+## Thanks
+
+Special thanks to [Kenneth Wussmann](https://github.com/KennethWussmann/serum-preset-packager) for the original Serum 2 preset packager implementation in Python, which inspired this TypeScript version.
