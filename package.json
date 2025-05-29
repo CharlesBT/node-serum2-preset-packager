@@ -1,6 +1,6 @@
 {
   "name": "node-serum2-preset-packager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Xfer Serum 2 Preset Packager for NodeJS",
   "repository": {
     "type": "git",
@@ -46,8 +46,7 @@
     "test:cli:unpack": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/serum2-cli.ts unpack ./test/cli/serum2-cli.SerumPreset ./test/cli/serum2-cli.SerumPreset.json",
     "test:cli:pack": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/serum2-cli.ts pack ./test/cli/serum2-cli.SerumPreset.json ./test/cli/serum2-cli.SerumPreset",
     "clean": "rimraf -g ./dist **/.tmp/** ./node_modules ./pnpm-lock.yaml ./.pnpm-debug.log",
-    "reinstall": "pnpm clean && pnpm install",
-    "postinstall": "pnpm run build"
+    "reinstall": "pnpm clean && pnpm install"
   },
   "dependencies": {
     "@mongodb-js/zstd": "2.0.1",
