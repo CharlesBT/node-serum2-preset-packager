@@ -13,7 +13,10 @@ This package provides utilities and a CLI for converting between Serum 2 preset 
 ## Installation
 
 ```bash
-pnpm install
+# using npm
+npm install node-serum2-preset-packager
+# or using pnpm
+pnpm install node-serum2-preset-packager
 ```
 
 ## Usage
