@@ -1,45 +1,41 @@
-name: Build & Publish (on tag)
+name: Build & Publish
 
 permissions:
-  contents: write          # nécessaire pour créer la Release
-  packages: write          # nécessaire pour publier sur npm
+  contents: write
+  packages: write
 
 env:
-  NODE_VERSION: 20.x       # version de Node à utiliser
-  PNPM_VERSION: 10         # version de pnpm à utiliser
+  NODE_VERSION: 20.x # set this to the node version to use
+  PNPM_VERSION: 10 # set this to the node version to use
 
-# ─── Déclencheur : push d’un tag ──────────────────────────────────────────────
 on:
   push:
-    tags:
-      - 'v*.*.*'           # ex. v1.2.3   (adapter si besoin)
+    branches:
+      - main
 
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Récupération du dépôt
-      - name: Check out repository
+      - name: Check out Git repository
         uses: actions/checkout@v4
 
-      # 2. Node + pnpm
-      - name: Set up Node
+      - name: Set up Node.js version ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Set up pnpm
+      - name: Install PNPM
         uses: pnpm/action-setup@v3
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      # 3. Dépendances, build, tests
-      - name: Install dependencies
+      - name: Install packages
         run: pnpm install
 
-      - name: TypeScript type-check
+      - name: Typescript type check
         run: pnpm run tc
 
       - name: Build
@@ -48,17 +44,15 @@ jobs:
       - name: Test
         run: pnpm run test:ci
 
-      # 4. Publication npm
-      - name: Publish to npm
+      - name: Publish to NPM registry
         run: pnpm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      # 5. Création de la Release GitHub (le tag existe déjà)
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref_name }}   # v1.2.3
+          tag_name: ${{ github.ref_name }} # v1.2.3
           name: ${{ github.ref_name }}
           generate_release_notes: true
         env:
