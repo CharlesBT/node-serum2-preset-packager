@@ -21,6 +21,15 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v4
 
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          git fetch --tags
+          echo "TAG_NAME=$(git describe --tags --abbrev=0 || echo 'no-tag')" >> $GITHUB_ENV
+
+      - name: Use tag value
+        run: echo "Latest tag is $TAG_NAME"
+
       - name: Set up Node.js version ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v4
         with:
@@ -44,15 +53,15 @@ jobs:
       - name: Test
         run: pnpm run test:ci
 
-      - name: Publish to NPM registry
-        run: pnpm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - name: Publish to NPM registry
+      #   run: pnpm publish --access public
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref_name }} # v1.2.3
+          tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
           generate_release_notes: true
         env:
