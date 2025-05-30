@@ -75,6 +75,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
