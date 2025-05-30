@@ -61,6 +61,7 @@ jobs:
 
       # Create GitHub tag and release
       - name: Create GitHub release
+        id: create_release
         uses: ncipollo/release-action@v1
         with:
           tag: 'v${{ steps.pkg.outputs.version }}'
