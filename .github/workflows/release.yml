@@ -80,19 +80,19 @@ jobs:
           draft: false
           prerelease: false
 
-      # # Upload artifact, par ex. l’archive npm (optional)
-      # - name: Attach pnpm package
-      #   run: pnpm pack # create node-serum2-preset-packager-x.x.x.tgz
+      # Upload artifact, par ex. l’archive npm (optional)
+      - name: Attach pnpm package
+        run: pnpm pack # create node-serum2-preset-packager-x.x.x.tgz
 
-      # - name: Upload artifact
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
-      #     asset_path: ./node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
-      #     asset_name: node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
-      #     asset_content_type: application/gzip
+      - name: Upload artifact
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
+          asset_name: node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
+          asset_content_type: application/gzip
 
       # - name: Publish to NPM registry
       #   run: pnpm publish --access public
