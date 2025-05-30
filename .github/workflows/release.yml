@@ -78,7 +78,7 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./*.tgz
+          asset_path: ./node-serum2-preset-packager-package-${{ steps.pkg.outputs.version }}.tgz
           asset_name: node-serum2-preset-packager-package-${{ steps.pkg.outputs.version }}.tgz
           asset_content_type: application/gzip
 
