@@ -93,7 +93,7 @@ jobs:
       #     asset_name: node-serum2-preset-packager-${{ steps.pkg.outputs.version }}.tgz
       #     asset_content_type: application/gzip
 
-      # - name: Publish to NPM registry
-      #   run: pnpm publish --access public
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish to NPM registry
+        run: pnpm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
