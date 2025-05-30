@@ -1,0 +1,47 @@
+name: Manual release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Next semver (e.g. 1.4.0)'
+        required: true
+  push:
+    tags: ['v*']   # also allow “git tag v1.4.0 && git push --tags”
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+
+      - name: Bump version (dispatch)
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          npm version ${{ inputs.version }} --no-git-tag-version
+          git config user.name  "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit -am "chore(release): v${{ inputs.version }}"
+          git tag "v${{ inputs.version }}"
+          git push --follow-tags
+
+      - run: npm ci --ignore-scripts
+      - run: npm run build --if-present
+      - run: npm test        --if-present
+
+      - name: Publish to npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --provenance
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}   # v1.4.0
+          generateReleaseNotes: true

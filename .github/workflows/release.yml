@@ -1,0 +1,86 @@
+name: Build & Publish
+
+permissions:
+  contents: write
+  packages: write
+
+env:
+  NODE_VERSION: 20.x # set this to the node version to use
+  PNPM_VERSION: 10 # set this to the node version to use
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          git fetch --tags
+          echo "TAG_NAME=$(git describe --tags --abbrev=0 || echo 'no-tag')" >> $GITHUB_ENV
+
+      - name: Use tag value
+        run: echo "Latest tag is $TAG_NAME"
+
+      - name: Set up Node.js version ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install PNPM
+        uses: pnpm/action-setup@v3
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: Install packages
+        run: pnpm install
+
+      - name: Typescript type check
+        run: pnpm run tc
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Test
+        run: pnpm run test:ci
+
+      # - name: Publish to NPM registry
+      #   run: pnpm publish --access public
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # 4. Lit la version déclarée dans package.json
+      - name: Extract package version
+        id: pkg
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      # 5. Crée le tag et la release GitHub
+      - name: Create GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: "v${{ steps.pkg.outputs.version }}"
+          name: "${{ steps.pkg.outputs.version }}"
+          generateReleaseNotes: true   # optionnel : notes auto-générées
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 6. (facultatif) Téléverse un artefact, par ex. l’archive npm
+      # - name: Attach npm package
+      #   run: npm pack
+      # - name: Upload artifact
+      #   uses: actions/upload-release-asset@v1
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: ./*.tgz
+      #     asset_name: package.tgz
+      #     asset_content_type: application/gzip
